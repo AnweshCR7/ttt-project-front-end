@@ -1,0 +1,10 @@
+<form class="form-inline" ngNativeValidate (ngSubmit)="onSubmit()">
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <label for="input_number">Number :</label>
+    <input autocomplete="off" type="number" class="form-control" id="input_number" placeholder="Enter number" name="input_number" [(ngModel)]="number" required >
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <button  type="submit" class="btn btn-success btn-export" >Submit</button>
+  </div>
+</form>
+<p>You've Entered: {{number}}</p>
