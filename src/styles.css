@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: black;
+    margin: 50px auto;
+    /* padding: 50px; */
+    width: 100%; /* full window width */
+}
+
+@font-face {
+    font-family: "fonttt";
+    src: url("HelveticaNeueLTStd-UltLt.otf");
+  }
+@font-face {
+    font-family: "fonttt";
+    src: url("HelveticaNeueLTStd-Lt.otf");
+    font-weight: bold;
+}
+  
+  /* h2 { font-family: "fonttt", Georgia, serif; } */
+  * {
+    /* font-size: 100%; */
+    font-family: fonttt;
+    color: white;
+    font-size: x-large;
+   }

@@ -1,0 +1,19 @@
+<!-- <div *ngIf="data">Press</div> -->
+<!-- <div class="table-responsive">           -->
+<div id="my-div" *ngIf="table_data">
+    <table class="scroll">
+        <thead>
+          <tr>
+              <th class="text-center">Word</th>
+              <th class="text-center">Count</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let datum of table_data">
+              <td class="text-center">{{datum.word}}</td>
+              <td class="text-center">{{datum.count}}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+<!-- </div> -->
