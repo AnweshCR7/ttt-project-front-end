@@ -1,0 +1,13 @@
+
+   #my-header{
+       /* margin: 100px; */
+       width: fit-content;
+       margin: 0px auto;
+       float: none;
+   }
+   .wrapper{
+       margin: 50px;
+       padding: 5px;
+   }
+
+   

@@ -22,6 +22,10 @@ export class InputComponentComponent implements OnInit {
       headers: new HttpHeaders({'Content-Type': 'application/json','Access-Control-Allow-Origin': '*', 
       'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Authorization'})
     };
+
+    /*
+      Using angular http module to make a post request.
+    */
     const req = this.http.post('http://localhost:3000/api', {number:this.number} , httpOptions)
       .subscribe(
         res => {
@@ -34,8 +38,11 @@ export class InputComponentComponent implements OnInit {
         }
       );
     
-      //console.log(req);
 
+  /*
+      This XHR request (jquery) can be used to fire a post on keypress rather than hitting submit.
+      But since we are wanting to use angular... 
+  */
   //   $.ajax({
   //     type:'POST',
   //     url: 'http://localhost:3000/api',
