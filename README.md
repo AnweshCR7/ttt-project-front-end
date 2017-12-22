@@ -3,7 +3,7 @@
 This project serves as the front end for TTT project
 
 - A front end which accepts a number input N with a Submit button (Angular 4)
-- On entering a value and pressing submit, a request is sent to a node based backend (link)
+- On entering a value and pressing submit, a request is sent to a node based backend [link](https://github.com/AnweshCR7/ttt-project-back-end)
 - The backend fetches a file hosted at http://terriblytinytales.com/test.txt and returns the top N most frequently occurring words in this file.
 - The retrieved data (the top N words and their frequency of occurrence) is then displayed, in a tabular format.
 
@@ -24,7 +24,7 @@ Rest is kinda self explainatory
 
 Clone this repo locally and run npm-install once to install required node modules. (You should have angular CLI installed to run this project)
 
-With the backend server (link again) listening at 3000, a simple ng serve should start serving the front-end at localhost:4200
+With the [backend server](https://github.com/AnweshCR7/ttt-project-back-end) listening at 3000, a simple ng serve should start serving the front-end at localhost:4200
 
 ## Development server
 
