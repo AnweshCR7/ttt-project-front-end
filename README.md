@@ -9,6 +9,10 @@ This project serves as the front end for TTT project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
+![alt text][UI]
+
+[UI]: https://github.com/AnweshCR7/ttt-project-front-end/blob/master/tttfrontend.JPG "Front End UI"
+
 ## Project Structure
 
 The angular front-end broadly consists of two components (one is the form which accepts the input and the second one is the table).
